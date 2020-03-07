@@ -1,0 +1,32 @@
+<HTML>
+<HEAD>
+	<TITLE>Javascript Temperature Conversion</TITLE>
+
+<SCRIPT >
+
+function FahrenToCelsius(faren)
+{
+	let temp=(faren-32)*5/9
+	
+	return temp
+}
+function ConvertTemp()
+{
+	let temp=prompt("what temperature fahrenheit? ","50")
+	let celsius=FahrenToCelsius(temp)
+	alert(temp+" degress Fahrenheit is " + celsius + " degrees Celsius. ")
+}
+
+</SCRIPT>
+
+</HEAD>
+
+<BODY >
+
+
+<FORM >
+<INPUT TYPE="BUTTON"  VALUE="Temperature Conversion" onClick="ConvertTemp()">
+</FORM>
+
+</BODY>
+</HTML>

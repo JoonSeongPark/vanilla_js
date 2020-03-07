@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Drop Down List Exercise</title>
+  <script>
+    function result() {
+      let sel = document.getElementById('people').options
+      let opt = document.getElementById('people').selectedIndex
+
+      let imageDir = sel[opt].value
+      let nameValue = sel[opt].text
+
+      document.getElementById('face').src = imageDir
+      document.getElementById('name').value = nameValue
+      
+    }
+  </script>
+</head>
+<body>
+  <h2>CHOOSE A LEADER TO VIEW</h2>
+  <form>
+    <select id="people">
+      <option value="images/dalton.jpg">Dalton</option>
+      <option value="images/howard.jpg">Howard</option>
+      <option value="imgaes/mike.jpg">Mike</option>
+    </select>
+    <a href="javascript:result()"><img src="images/COMBO.GIF"/></a>
+  </form>
+  <div style="text-align: center;">
+    <img id='face' src="images/bg.gif" width=150 height=150/>
+    <br>
+    <input id='name' type="text" value='' readonly="readonly"/>
+
+  </div>
+</body>
+</html>

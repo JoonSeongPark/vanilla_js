@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Document</title>
+    <style>
+      p {
+        color: red;
+      }
+    </style>
+    <script>
+      // alert(document.cookie)
+    </script>
+    <!-- <script src="./first.js"></script> -->
+  </head>
+  <body onload="alert('Welcome')">
+    <div style="display: flex;">
+      <div
+        style="width:100px; height:100px; margin: 0 10px; background-color: gray;"
+        onmouseover="document.bgColor='red'" onmouseout="document.bgColor='white'"
+      ></div>
+      <div
+        style="width:100px; height:100px; margin: 0 10px; background-color: gray;"
+        onmouseover="document.bgColor='blue'" onmouseout="document.bgColor='white'"
+      ></div>
+      <div
+        style="width:100px; height:100px; margin: 0 10px; background-color: gray;"
+        onmouseover="document.bgColor='yellow'" onmouseout="document.bgColor='white'"
+      ></div>
+    </div>
+    <h1 onclick="style.color='red'">TextColor</h1>
+    <h1 onclick="document.bgColor='blue'; style.color='white'">
+      BackGroundColor
+    </h1>
+
+    <button onclick="location.href='./second.html'">To the second Page!</button>
+  </body>
+</html>

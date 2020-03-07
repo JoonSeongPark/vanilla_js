@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Color Chnage</title>
+
+  <script>
+function changeColor() {
+  var sel = document.getElementById('colors').options
+  var opt = document.getElementById('colors').selectedIndex
+
+  let color = sel[opt].value
+  
+  document.bgColor = color
+}
+
+  </script>
+
+
+</head>
+<body>
+  
+  <h2>Please select a color</h2>
+
+  <form>
+    <select id="colors">
+      <option value='white'>White</option>
+      <option value='red'>Red</option>
+      <option value='orange'>Orange</option>
+      <option value='yellow'>Yellow</option>
+      <option value='green'>Green</option>
+      <option value='blue'>Blue</option>
+      <option value='purple'>Purple</option>
+    </select>
+
+<!-- form 태그 안의 button 태그는 조심해야한다.
+1. input 쓰던가
+2. button 을 밖으로 빼던가
+3. button 안에 type="button" 을 넣어주던가 -->
+
+    <button type='button' onclick="changeColor()">change color</button>
+  </form>
+
+
+</body>
+</html>

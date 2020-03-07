@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+    <script src="burger.js"></script>
+    <link rel="stylesheet" type="text/css" href="burgers.css" />
+  </head>
+  <body>
+    <div id="frame">
+      <h2>Joon's Burger Drive-Thru</h2>
+
+      <img src="burgers.gif" id="left" />
+      <div>
+        <div class="field">
+          Name:
+          <input type="text" />
+        </div>
+        <div class="field">
+          # of Burgers:
+          <input id="burgers" type="text" />
+        </div>
+        <div class="field">
+          # of Fries:
+          <input id="fries" type="text" />
+        </div>
+        <div class="field">
+          # of Drinks:
+          <input id="drinks" type="text" />
+        </div>
+        <div class="field">
+          Subtotal:
+          <input
+            id="subtotal"
+            type="text"
+            value=""
+            onfocus="updateOrder()"
+            readonly="readonly"
+          />
+        </div>
+        <div class="field">
+          Tax:
+          <input
+            id="tax"
+            type="text"
+            onchange="updateOrder()"
+            readonly="readonly"
+          />
+        </div>
+        <div class="field">
+          Total:
+          <input
+            id="total"
+            type="text"
+            onchange="updateOrder()"
+            readonly="readonly"
+          />
+        </div>
+        <div class="field">
+          <input type="button" value="Order Total" onclick="updateOrder()" />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

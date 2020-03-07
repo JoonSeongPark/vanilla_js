@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+    <script>
+      function mySelector() {
+        let opt = document.getElementById("myselect").options;
+        let sel = document.getElementById("myselect").selectedIndex;
+
+        alert("Text is " + opt[sel].text);
+        alert("Value is " + opt[sel].value)
+      }
+    </script>
+  </head>
+  <body>
+    Select Fruit: <button onclick="mySelector()">Display Info</button>
+
+    <form>
+      <select id="myselect">
+        <option value="1">Apple</option>
+        <option value="2">Orange</option>
+        <option value="3">Pineapple</option>
+        <option value="4">Banana</option>
+        <option value="5"></option>
+      </select>
+    </form>
+  </body>
+</html>
