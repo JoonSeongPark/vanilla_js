@@ -59,7 +59,7 @@ function checkPasswordMatch(pass1, pass2) {
 }
 
 function checkPasswordForm(pass1) {
-  const re = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]$/;
+  const re = /^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9](?=.*?[,.#?!@$%^&*-]))/
   console.log(pass1.value);
   console.log(re.test(pass1.value));
   if (re.test(pass1.value.trim())) {
