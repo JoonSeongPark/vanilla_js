@@ -36,8 +36,8 @@ function checkRequired(inputArr) {
 }
 
 function checkLength(input, min, max) {
-  const len = input.value.length
-  if (len < min && len >0) {
+  const len = input.value.length;
+  if (len < min && len > 0) {
     showError(
       input,
       `${getFieldName(input)} must be at least ${min} characters`
@@ -58,6 +58,20 @@ function checkPasswordMatch(pass1, pass2) {
   }
 }
 
+function checkPasswordForm(pass1) {
+  const re = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]$/;
+  console.log(pass1.value);
+  console.log(re.test(pass1.value));
+  if (re.test(pass1.value.trim())) {
+    showSuccess(pass1);
+  } else if (pass1.value.length !== 0) {
+    showError(pass1, "Password is not vaild");
+    alert(
+      "Password needs at least \none lowercase letter, uppercase letter, number, and special charater."
+    );
+  }
+}
+
 function getFieldName(input) {
   return input.id.charAt(0).toUpperCase() + input.id.slice(1);
 }
@@ -70,4 +84,5 @@ form.addEventListener("submit", function(e) {
   checkLength(username, 4, 12);
   checkLength(password, 8, 20);
   checkPasswordMatch(password, password2);
+  checkPasswordForm(password);
 });
