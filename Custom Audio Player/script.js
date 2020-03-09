@@ -3,6 +3,12 @@ const play = document.getElementById('play')
 const stop = document.getElementById('stop')
 const progress = document.getElementById('progress')
 const timestamp = document.getElementById('timestamp')
+const songTitle = document.getElementById('songTitle')
+const downBtn = document.querySelector('.downBtn')
+
+let songName = audio.src.slice(audio.src.lastIndexOf('/')+1, audio.src.lastIndexOf('.'))
+
+songTitle.innerHTML = songName
 
 function updatePlayIcon(){
   if (audio.paused) {
@@ -42,7 +48,9 @@ function setAudioProgress(){
   audio.currentTime = (progress.value*audio.duration)/100
 }
 
-
+function alertInfo() {
+  alert("This song is from SoundCloud.\nDon't worry about Copyright.")
+}
 
 audio.addEventListener('play', updatePlayIcon)
 audio.addEventListener('pause', updatePlayIcon)
@@ -53,3 +61,5 @@ play.addEventListener('click', toggleAudioStatus)
 stop.addEventListener('click', stopAudio)
 
 progress.addEventListener('change', setAudioProgress)
+
+downBtn.addEventListener('click', alertInfo)

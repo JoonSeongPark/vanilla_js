@@ -14,10 +14,15 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-
     <h1>Custom Audio Player</h1>
 
-    <audio src="audios/Sleepless.mp3" id="audio" class="audio"></audio>
+    <audio
+      src="audios/Sleepless.mp3"
+      value="Sleepless"
+      id="audio"
+      class="audio"
+    ></audio>
+    <p>Song Title: <span class="songTitle" id="songTitle"></span></p>
     <div class="controls">
       <button class="btn" id="play"><i class="fa fa-play fa-2x"></i></button>
       <button class="btn" id="stop"><i class="fa fa-stop fa-2x"></i></button>
@@ -30,9 +35,14 @@
         step="0.1"
         value="0"
       />
-      <span class="timestamp" id='timestamp'>00:00</span>
+      <span class="timestamp" id="timestamp">00:00</span>
+    </div>
+    <div class="download">
+      <a href="audios/Sleepless.mp3" download="Sleepless.mp3"
+        ><button class="downBtn">Download</button></a
+      >
     </div>
 
-    <script src='script.js'></script>
+    <script src="script.js"></script>
   </body>
 </html>
