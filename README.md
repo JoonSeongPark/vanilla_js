@@ -1,17 +1,15 @@
 # Vanilla Javascript
-<hr>
 This repository is study for vanilla js.
 <br>
 <br>
 
 ## Javascript Basic Practice
-<hr>
+
 Basic Javascript Files in 'js_prac'
 <br>
 <br>
 
 ## mini-projects
-<hr>
 
 - [Form Validator](https://github.com/joonseongpark/vanilla_js/tree/master/Form_Validator, "Github Repo Link")
 - [Movie Seat Booking](https://github.com/joonseongpark/vanilla_js/Movie%20Seat%20Booking, "Github Repo Link") - Local Storage
