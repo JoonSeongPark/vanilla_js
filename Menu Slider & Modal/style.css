@@ -93,7 +93,7 @@ input[type="submit"] {
   border-radius: 5px;
   color: #fff;
   cursor: pointer;
-  padding: 8px 12px;
+  padding: 11px 12px;
 }
 
 button:focus {
@@ -156,7 +156,6 @@ button:focus {
 
 .modal-header h3 {
   margin:0;
-  border-bottom: 1px solid #333;
 }
 
 .modal-content {
@@ -173,6 +172,7 @@ button:focus {
 }
 
 .modal-form .form-input {
+  border-radius: 5px;
   padding: 8px;
   width: 100%;
   border: 1px solid #111;
