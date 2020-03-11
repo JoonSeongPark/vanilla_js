@@ -11,10 +11,11 @@ Basic Javascript Files in 'js_prac'
 
 ## mini-projects
 
-- [Form Validator](https://github.com/joonseongpark/vanilla_js/tree/master/Form_Validator, "Github Repo Link")
-- [Movie Seat Booking](https://github.com/joonseongpark/vanilla_js/Movie%20Seat%20Booking, "Github Repo Link") - Local Storage
-- [Custom Video Player](https://github.com/joonseongpark/vanilla_js/tree/master/Custon%20Video%20Player, "Github Repo Link") -- Video API
-- [Exchange Rate Calculator](https://github.com/joonseongpark/vanilla_js/tree/master/Exchange%20Rate%20Calculator, "Github Repo Link") - Fetcch & JSON
-- [Random Users](https://github.com/joonseongpark/vanilla_js/tree/master/Random%20Users, "Github Repo Link") - Array Methods
-- [My Landing Page](https://github.com/JoonSeongPark/vanilla_js/tree/master/My%20Landing%20Page, "Github Repo Link") - Menu Slider & Modal
-- [Hangman Game](https://github.com/joonseongpark/vanilla_js/https://github.com/JoonSeongPark/vanilla_js/tree/master/Hangman%20Game, "Github Repo Link") - SVG, Events
+- [Form Validator](https://joonseongpark.github.io/vanilla_js/Form%20Validator, "Link")
+- [Movie Seat Booking](https://joonseongpark.github.io/vanilla_js/Movie%20Seat%20Booking, "Link") - Local Storage
+- [Custom Video Player](https://joonseongpark.github.io/vanilla_js/Custom%20Video%20Player, "Link") -- Video API
+- [Exchange Rate Calculator](https://joonseongpark.github.io/vanilla_js/Exchange%20Rate%20Calculator, "Link") - Fetcch & JSON
+- [Random Users](https://joonseongpark.github.io/vanilla_js/Random%20Users, "Link") - Array Methods
+- [My Landing Page](https://joonseongpark.github.io/vanilla_js/My%20Landing%20Page, "Link") - Menu Slider & Modal
+- [Hangman Game](https://joonseongpark.github.io/vanilla_js/Hangman%20Game, "Link") - SVG, Events
+- [Infinite Scroll Posts](https://joonseongpark.github.io/vanilla_js/Infinite%20Scroll%20Posts, "Link") - Fetch, Async/Await, Scroll, Filter
