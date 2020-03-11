@@ -19,3 +19,4 @@ Basic Javascript Files in 'js_prac'
 - [My Landing Page](https://joonseongpark.github.io/vanilla_js/My%20Landing%20Page "Link") - Menu Slider & Modal
 - [Hangman Game](https://joonseongpark.github.io/vanilla_js/Hangman%20Game "Link") - SVG, Events
 - [Infinite Scroll Posts](https://joonseongpark.github.io/vanilla_js/Infinite%20Scroll%20Posts "Link") - Fetch, Async/Await, Scroll, Filter
+- [Meal Finder](https://joonseongpark.github.io/vanilla_js/Meal%20Finder "Link") - Fetch, MealDB API
