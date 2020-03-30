@@ -1,2 +1,5 @@
 *.txt
 *.pdf
+.vscode
+.idea
+SPA Route/
