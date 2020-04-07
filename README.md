@@ -20,3 +20,4 @@ Basic Javascript Files in 'js_prac'
 - [Hangman Game](https://joonseongpark.github.io/vanilla_js/Hangman%20Game "Link") - SVG, Events
 - [Infinite Scroll Posts](https://joonseongpark.github.io/vanilla_js/Infinite%20Scroll%20Posts "Link") - Fetch, Async/Await, Scroll, Filter
 - [Meal Finder](https://joonseongpark.github.io/vanilla_js/Meal%20Finder "Link") - Fetch, MealDB API
+- [Expense Tracker](https://joonseongpark.github.io/vanilla_js/Expense%20Tracker "Link") - Array Methods, Local Storage
