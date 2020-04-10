@@ -22,4 +22,4 @@ Basic Javascript Files in 'js_prac'
 - [Meal Finder](https://joonseongpark.github.io/vanilla_js/Meal%20Finder "Link") - Fetch, MealDB API
 - [Expense Tracker](https://joonseongpark.github.io/vanilla_js/Expense%20Tracker "Link") - Array Methods, Local Storage
 - [Typing Game](https://joonseongpark.github.io/vanilla_js/Typing%20Game "Link") - DOM, Intervals, Events
-- [Typing Game](https://joonseongpark.github.io/vanilla_js/Memory%20Cards "Link") - CSS Effects, Local Storage
+- [Memory Cards](https://joonseongpark.github.io/vanilla_js/Memory%20Cards "Link") - CSS Effects, Local Storage
