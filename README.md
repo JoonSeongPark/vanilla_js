@@ -23,3 +23,4 @@ Basic Javascript Files in 'js_prac'
 - [Expense Tracker](https://joonseongpark.github.io/vanilla_js/Expense%20Tracker "Link") - Array Methods, Local Storage
 - [Typing Game](https://joonseongpark.github.io/vanilla_js/Typing%20Game "Link") - DOM, Intervals, Events
 - [Memory Cards](https://joonseongpark.github.io/vanilla_js/Memory%20Cards "Link") - CSS Effects, Local Storage
+- [Speech Text Reader](https://joonseongpark.github.io/vanilla_js/Speech%20Text%20Reader "Link") - Speech Syncthesis
