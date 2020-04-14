@@ -25,3 +25,4 @@ Basic Javascript Files in 'js_prac'
 - [Memory Cards](https://joonseongpark.github.io/vanilla_js/Memory%20Cards "Link") - CSS Effects, Local Storage
 - [Speech Text Reader](https://joonseongpark.github.io/vanilla_js/Speech%20Text%20Reader "Link") - Speech Syncthesis
 - [Lyrics Search App](https://joonseongpark.github.io/vanilla_js/Lyrics%20Search%20App "Link") - Fetch, Pagination, Lyrics.ovh API
+- [Breakout Game](https://joonseongpark.github.io/vanilla_js/Breakout%20Game "Link") - HTML5 Canvas API
