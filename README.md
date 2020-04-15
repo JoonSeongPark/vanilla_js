@@ -26,3 +26,4 @@ Basic Javascript Files in 'js_prac'
 - [Speech Text Reader](https://joonseongpark.github.io/vanilla_js/Speech%20Text%20Reader "Link") - Speech Syncthesis
 - [Lyrics Search App](https://joonseongpark.github.io/vanilla_js/Lyrics%20Search%20App "Link") - Fetch, Pagination, Lyrics.ovh API
 - [Breakout Game](https://joonseongpark.github.io/vanilla_js/Breakout%20Game "Link") - HTML5 Canvas API
+- [Relaxer App](https://joonseongpark.github.io/vanilla_js/Relaxer%20App "Link") - CSS Animations, setTimeout
