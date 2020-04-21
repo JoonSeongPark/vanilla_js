@@ -28,4 +28,4 @@ Basic Javascript Files in 'js_prac'
 - [Breakout Game](https://joonseongpark.github.io/vanilla_js/Breakout%20Game "Link") - HTML5 Canvas API
 - [Relaxer App](https://joonseongpark.github.io/vanilla_js/Relaxer%20App "Link") - CSS Animations, setTimeout
 - [Sortable List](https://joonseongpark.github.io/vanilla_js/Sortable%20List "Link") - Drag & Drop API
-- [Speak Number Guess](https://joonseongpark.github.io/vanilla_js/Speak%20Number%20Guess "Link") - Speech Recognition
+- [Speak Number Guessing Game](https://joonseongpark.github.io/vanilla_js/Speak%20Number%20Guessing%20Game "Link") - Speech Recognition
