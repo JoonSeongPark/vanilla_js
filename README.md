@@ -29,3 +29,4 @@ Basic Javascript Files in 'js_prac'
 - [Relaxer App](https://joonseongpark.github.io/vanilla_js/Relaxer%20App "Link") - CSS Animations, setTimeout
 - [Sortable List](https://joonseongpark.github.io/vanilla_js/Sortable%20List "Link") - Drag & Drop API
 - [Speak Number Guessing Game](https://joonseongpark.github.io/vanilla_js/Speak%20Number%20Guessing%20Game "Link") - Speech Recognition
+- [New Year Countdown](https://joonseongpark.github.io/vanilla_js/New%20Year%20Countdown "Link") - DOM, Date & Time
